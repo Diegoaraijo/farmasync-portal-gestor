@@ -1,0 +1,25 @@
+{
+  "name": "farmasync-portal-gestor",
+  "version": "52.0.0",
+  "private": true,
+  "description": "Portal web multiempresa para gestores do FarmaSync",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "create-user": "node tools/create-user.js",
+    "list-users": "node tools/list-users.js",
+    "demo": "node tools/demo-server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.6.2",
+    "fast-xml-parser": "^5.12.0",
+    "helmet": "^8.3.0",
+    "lucide": "^1.31.0",
+    "mysql2": "^3.23.2",
+    "nodemailer": "^10.3.1"
+  }
+}

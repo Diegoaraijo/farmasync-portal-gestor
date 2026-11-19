@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe33261112345678000195550010000123451876543218" versao="4.00">
+      <ide>
+        <cUF>33</cUF>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>12345</nNF>
+        <dhEmi>2026-11-09T10:30:00-03:00</dhEmi>
+        <tpNF>1</tpNF>
+      </ide>
+      <emit>
+        <CNPJ>12345678000195</CNPJ>
+        <xNome>Distribuidora Saúde &amp; Vida Ltda</xNome>
+        <xFant>Saúde e Vida</xFant>
+        <enderEmit>
+          <xLgr>Rua das Flores</xLgr>
+          <fone>2133334444</fone>
+          <UF>RJ</UF>
+        </enderEmit>
+        <email>vendas@saudevida.test</email>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <cProd>1001</cProd>
+          <cEAN>7891234567895</cEAN>
+          <xProd>Dipirona 500mg 20 comprimidos</xProd>
+          <NCM>30049099</NCM>
+          <uCom>CX</uCom>
+          <qCom>10.0000</qCom>
+          <vUnCom>4.5000</vUnCom>
+          <vProd>45.00</vProd>
+          <cEANTrib>7891234567895</cEANTrib>
+          <rastro>
+            <nLote>L123</nLote>
+            <qLote>10.000</qLote>
+            <dFab>2026-01-10</dFab>
+            <dVal>2028-06-30</dVal>
+          </rastro>
+          <med>
+            <cProdANVISA>1234567890123</cProdANVISA>
+            <vPMC>9.90</vPMC>
+          </med>
+        </prod>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>SH-200</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>Shampoo Anticaspa 200ml</xProd>
+          <NCM>33051000</NCM>
+          <uCom>UN</uCom>
+          <qCom>6.0000</qCom>
+          <vUnCom>12.0000</vUnCom>
+          <vProd>72.00</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+        </prod>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>0000555</cProd>
+          <cEAN>7899999999994</cEAN>
+          <xProd>Amoxicilina 500mg 21 capsulas</xProd>
+          <NCM>30041011</NCM>
+          <uCom>CX</uCom>
+          <qCom>3.0000</qCom>
+          <vUnCom>20.0000</vUnCom>
+          <vProd>60.00</vProd>
+          <cEANTrib>7899999999994</cEANTrib>
+          <rastro>
+            <nLote>A1</nLote>
+            <qLote>1.000</qLote>
+            <dVal>2027-12-31</dVal>
+          </rastro>
+          <rastro>
+            <nLote>A2</nLote>
+            <qLote>2.000</qLote>
+            <dVal>2027-03-31</dVal>
+          </rastro>
+        </prod>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>177.00</vBC>
+          <vICMS>21.24</vICMS>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vProd>177.00</vProd>
+          <vNF>177.00</vNF>
+        </ICMSTot>
+      </total>
+      <cobr>
+        <fat>
+          <nFat>12345</nFat>
+          <vOrig>177.00</vOrig>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2026-12-09</dVenc>
+          <vDup>88.50</vDup>
+        </dup>
+        <dup>
+          <nDup>002</nDup>
+          <dVenc>2027-01-08</dVenc>
+          <vDup>88.50</vDup>
+        </dup>
+      </cobr>
+    </infNFe>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <chNFe>33261112345678000195550010000123451876543218</chNFe>
+      <cStat>100</cStat>
+    </infProt>
+  </protNFe>
+</nfeProc>
